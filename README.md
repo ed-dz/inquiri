@@ -26,13 +26,20 @@ TIME WINDOW       FAILURES
 
 ```bash
 git clone https://github.com/ed-dz/inquiri.git
-cd inqr
+cd inquiri
 chmod +x inqr
 sudo cp inqr /usr/local/bin/inqr   # optional, puts it on your PATH
 ```
 
-Requires **gawk** (GNU awk). On Debian/Ubuntu: `sudo apt install gawk`.
-(macOS ships BSD awk by default — install gawk via `brew install gawk`.)
+Requires **gawk** (GNU awk). Run the bundled installer, which detects your
+package manager (apt, dnf, yum, pacman, apk, zypper, or Homebrew):
+
+```bash
+./scripts/install-deps.sh
+```
+
+Or install it manually: `sudo apt install gawk` (Debian/Ubuntu),
+`brew install gawk` (macOS — it ships BSD awk by default).
 
 ## Usage
 

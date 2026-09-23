@@ -62,7 +62,7 @@ EOF
 die() { echo "$PROG: error: $*" >&2; exit 1; }
 
 need_gawk() {
-  command -v gawk >/dev/null 2>&1 || die "gawk is required but not found. Install it with: sudo apt install gawk"
+  command -v gawk >/dev/null 2>&1 || die "gawk is required but not found. Run scripts/install-deps.sh, or install it manually (e.g. sudo apt install gawk)."
 }
 
 # ---------------------------------------------------------------------------
