@@ -25,7 +25,7 @@ TIME WINDOW       FAILURES
 ## Install
 
 ```bash
-git clone https://github.com/<you>/inqr.git
+git clone https://github.com/ed-dz/inquiri.git
 cd inqr
 chmod +x inqr
 sudo cp inqr /usr/local/bin/inqr   # optional, puts it on your PATH
