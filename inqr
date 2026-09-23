@@ -1,6 +1,17 @@
 #!/usr/bin/env bash
-# Inquiri (inqr) — a bash/awk log failure aggregator
-# https://github.com/<you>/inqr
+# ─────────────────────────────────────────────────────────────────────────
+#   _____                  _
+#  |_   _|                (_)
+#    | |  _ __   __ _ _   _ _ _ __ _
+#    | | | '_ \ / _` | | | | | '__(_)
+#   _| |_| | | | (_| | |_| | | |     _
+#  |_____|_| |_|\__, |\__,_|_|_|    (_)
+#                  | |
+#                  |_|            i n q r
+#
+#   bash/awk log failure aggregator — find it, bucket it, spot the spike
+#   https://github.com/ed-dz/inquiri
+# ─────────────────────────────────────────────────────────────────────────
 set -euo pipefail
 
 PROG="inqr"
